@@ -85,9 +85,3 @@ Entries are stored as a JSON array of objects with shape:
 ```json
 { "id": 123456789, "emotion": "Happy", "note": "Text", "timestamp": "..." }
 
-
-
-
-
-
-
