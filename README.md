@@ -26,8 +26,16 @@ The hardest part was ensuring that saved entries appear instantly and persist ac
 
 ---
 
+## User Experience
+
+The UI was designed to stay minimal and smooth — clean colors, simple buttons, and only essential elements. The “View More / View Less” toggle keeps the interface neat even with many entries.
+
+---
+
 ## Database Design
 Entries are stored as a JSON array of objects with shape:  
 ```json
 { "id": 123456789, "emotion": "Happy", "note": "Text", "timestamp": "..." }
+
+
 
