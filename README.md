@@ -32,12 +32,7 @@ The UI was designed to stay minimal and smooth — clean colors, simple buttons,
 
 ---
 
-## Database Design
-Entries are stored as a JSON array of objects with shape:  
-```json
-{ "id": 123456789, "emotion": "Happy", "note": "Text", "timestamp": "..." }
 
----
 
 ## Improvement Vision
 
@@ -52,6 +47,47 @@ Analytics & insights — simple charts showing mood trends over time.
 Mobile-friendly UI enhancements — optimize layout for smaller screens.
 
 Export entries — allow exporting journal data to CSV or PDF.
+
+---
+
+## Deployment Steps
+
+Frontend (React)
+
+Navigate to your frontend project folder.
+
+Run npm install to install dependencies.
+
+Update the backend API URL in your React code if needed.
+
+Run npm run build to create a production build.
+
+Deploy the build folder to Netlify, Vercel, or any static hosting provider.
+
+Backend (Node.js + Express)
+
+Navigate to your backend project folder.
+
+Run npm install to install dependencies.
+
+Ensure data.json exists in the backend root.
+
+Run node index.js (or nodemon index.js) to start the server.
+
+Deploy to Render, Heroku, or any Node.js-friendly hosting.
+
+Make sure to update the frontend with the deployed backend URL.
+
+---
+
+## Database Design
+Entries are stored as a JSON array of objects with shape:  
+```json
+{ "id": 123456789, "emotion": "Happy", "note": "Text", "timestamp": "..." }
+
+
+
+
 
 
 
