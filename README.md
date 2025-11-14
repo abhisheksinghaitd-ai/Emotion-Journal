@@ -37,5 +37,21 @@ Entries are stored as a JSON array of objects with shape:
 ```json
 { "id": 123456789, "emotion": "Happy", "note": "Text", "timestamp": "..." }
 
+---
+
+## Improvement Vision
+
+If I had 3 more days, I would:
+
+Add user authentication — allow users to create accounts and keep journals private.
+
+Search & filter functionality — search past entries by emotion, keyword, or date.
+
+Analytics & insights — simple charts showing mood trends over time.
+
+Mobile-friendly UI enhancements — optimize layout for smaller screens.
+
+Export entries — allow exporting journal data to CSV or PDF.
+
 
 
