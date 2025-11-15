@@ -1,6 +1,8 @@
 # Emotion Journal Web App
 
-A simple Emotion Journal web app to log daily feelings and short notes.  
+A simple Emotion Journal web app to log daily feelings and short notes.
+
+## Live Demo 👉 http://bit.ly/3XzZaNu
 
 - **Frontend:** Built with **React** and deployed on **Netlify**  
 - **Backend:** Built with **Node.js + Express**, stores entries in a local `data.json` file, and deployed on **Render**  
