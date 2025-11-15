@@ -1,10 +1,10 @@
-# Emotion Journal
-
-## Live Demo
-👉 http://bit.ly/3XzZaNu
+# Emotion Journal Web App
 
 A simple Emotion Journal web app to log daily feelings and short notes.  
-Frontend built with **React**; backend built with **Node.js + Express** and stores entries in a local `data.json` file. Frontend and backend communicate via REST endpoints (`GET /api/entries`, `POST /api/entries`).
+
+- **Frontend:** Built with **React** and deployed on **Netlify**  
+- **Backend:** Built with **Node.js + Express**, stores entries in a local `data.json` file, and deployed on **Render**  
+- **Communication:** Frontend and backend communicate via REST endpoints (`GET /api/entries`, `POST /api/entries`)
 
 ---
 
