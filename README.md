@@ -84,22 +84,22 @@ Make sure to update the frontend with the deployed backend URL.
 
 The current data.json storage works for small apps, but to support over 1M users the system would need:
 
-1. Database Upgrade
+1. **Database Upgrade:**
 Move to MongoDB/PostgreSQL with proper indexing for fast queries.
 
-2. Authentication
+2. **Authentication:**
 Add JWT login and link each entry to a userId for secure, private journals.
 
-3. Scalable Backend
+3. **Scalable Backend:**
 Deploy using Docker + Kubernetes with a load balancer and auto-scaling.
 
-4. Caching
+4. **Caching:**
 Use Redis to speed up frequent reads and reduce database load.
 
-5. Reliable Storage & Backups
+5. **Reliable Storage & Backups:**
 Store backups on AWS S3/DigitalOcean with automated snapshots.
 
-6. Frontend Optimization
+6. **Frontend Optimization:**
 Add pagination, lazy-loading, and faster search handling.
 
 ---
