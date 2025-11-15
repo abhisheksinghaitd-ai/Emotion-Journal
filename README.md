@@ -2,8 +2,8 @@
 
 A simple Emotion Journal web app to log daily feelings and short notes.
 
-## Live Demo 👉 http://bit.ly/3XzZaNu
-## Backend (API Base URL) 👉 https://bit.ly/4i4QHM3
+**Live Demo 👉** https://69183850fe217f0b71cfd129--sunny-moxie-7397b2.netlify.app/
+**Backend (API Base URL) 👉** https://backend-8501.onrender.com/api/entries
 
 
 - **Frontend:** Built with **React** and deployed on **Netlify**  
